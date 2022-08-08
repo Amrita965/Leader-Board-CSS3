@@ -185,40 +185,7 @@ hr {
 Media quaries 
 ---------------*/
 @media only screen and (max-width: 688px){
-    nav {
-        justify-content: space-around;
-        align-items: center;
-    }
 
-    nav:after {
-        content: ;
-    } 
-
-    .link-container {
-        display: block;
-        background-color: #562EFF;
-        position: fixed;
-        top: 70px;
-        left: 0px;
-        width: 50%;
-        height: 100%;
-        display: none;
-
-    }
-
-    nav:active .link-container{
-        display: block;
-    }
-
-    .link-container img {
-        display: none;
-    }
-
-    .link-container a {
-        display: block;
-        padding: 8px 20px;
-    }
-    
     .container {
         width: 100%;
     }
